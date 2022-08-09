@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    font-size: 70%;
+}
+
+.container{
+    overflow: hidden;
+}
+
+section[aria-label="navbar"]{
+    height: 10rem;
+    width: 100%;
+    background-color: #636c79;
+}
+
+nav{
+    display: flex;
+    gap: 30rem;
+}
+
+.logo{
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+
+.logo-img{
+    width: 120px;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 7rem;
+    list-style-type: none;
+    margin-top: 4rem;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.nav-btn{
+    position: relative;
+    bottom: .5rem;
+    right: 2rem;
+    background-color: transparent;
+    padding: .5rem 3rem;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.banner-1{
+    display: flex;
+    gap: 25rem;
+    height: 90vh;
+    background-color: #636c79; 
+}
+
+.leftb1{
+    position: relative;
+    top: 2rem;
+    left: 12rem;
+}
+
+.img1{
+    width: 40rem;
+    height: 50rem;
+    object-fit: cover;
+}
+
+.rightb1{
+    position: relative;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.h1b1{
+    font-size: 6rem;
+    color: #fff;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+}
+
+.p1b1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 3rem;
+    line-height: 36px;
+}
+
+.input-btn{
+    position: relative;
+    bottom: 4rem;
+}
+
+.input-btn input{
+    width: 32vw;
+    height: 6.5rem;
+    border: none;
+    outline: none;
+}
+
+.input-btn input[placeholder]{
+    padding: 0rem 5rem;
+    font-size: 16px;
+    color: #636c79;
+    font-weight: 400;
+}
+
+.mail-img{
+    position: relative;
+    left: 4.3rem;
+    top: 9px;
+}
+
+.input-btn button{
+    position: relative;
+    right: 17rem;
+}
+
+.email-btn{
+    background-color: #8bb7a2;
+    padding: 1.1rem 4rem;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.banner-2{
+    height: 140vh;
+    width: 100vw;
+
+}
+
+.header{
+    height: 50vh;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+}
+
+.h2b2{
+    font-size: 4rem;
+    font-family: "Raleway";
+}
+
+.count{
+    position: relative;
+    top: 7rem;
+    text-align: center;
+    display: flex;
+    padding: 0 9rem;
+    justify-content: space-around; 
+}
+
+.project{
+    text-align: center;
+}
+
+.project h1{
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.project p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3rem;
+}
+
+.img2{
+    width: 1000px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.banner-3{
+    height: 100vh;
+}
+
+.care{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.h1b3{
+    font-size: 4.5rem;
+    font-family: "Raleway";
+}
+
+.main{
+    display: flex;
+    gap: 9rem;
+}
+
+.left3{
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    position: relative;
+    top: 5rem;
+}
+
+.left3 h2{
+    font-size: 4rem;
+    font-family: "Raleway";
+}
+
+.left3 p{
+    position: relative;
+    bottom: 5rem;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.btn3{
+    position: relative;
+    bottom: 7rem;
+}
+
+.img3{
+    position: relative;
+    bottom: 2rem;
+    width: 47rem;
+    height: 50rem;
+    object-fit: fill;
+}
+
+.banner-4{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.img4{
+    position: relative;
+    top: 5rem;
+    height: 52rem;
+    width: 38rem;
+    object-fit: cover;
+}
+
+.right4{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    position: relative;
+    top: 15rem;
+}
+
+.right4 h1{
+    position: relative;
+    bottom: 6rem;
+    font-size: 4rem;
+    font-family: "Raleway";
+}
+
+.right4 p{
+    position: relative;
+    bottom: 4rem;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.btn4{
+    position: relative;
+    top: 3rem;
+}
+
+.banner-5{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left5{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    top: 15rem;
+}
+
+.left5 h1{
+    position: relative;
+    bottom: 6rem;
+    font-size: 4rem;
+    font-family: "Raleway";
+}
+
+.left5 p{
+    position: relative;
+    bottom: 4rem;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.btn5{
+    position: relative;
+    top: 1rem;
+}
+
+.img5{
+    position: relative;
+    top: 2rem;
+    height: 45rem;
+    width: 50rem;
+    right: 8rem;
+}
+
+.banner-6{
+    height: 120vh;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 7rem;
+}
+
+.h1b6{
+    font-size: 4rem;
+    font-family: "Raleway";
+}
+
+.p1b6{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.people{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.person{
+    height: 40rem;
+    width: 30rem;
+}
+
+.Personal h3{
+    position: relative;
+    top: 1.5rem;
+    font-size: 22px;
+}
+
+.Personal p{
+    position: relative;
+    top: 3rem;
+    color: gray;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.btn6{
+    position: relative;
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #10181d;
+    height: 65vh;
+}
+
+.footer-head{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2{
+    width: 120px;
+    height: 40px;
+    margin: 5rem 12rem;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    margin: 5rem 12rem;
+}
+
+.footer-links{
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links h4{
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.504);
+    font-size: 13px;
+}
+
+.icon{
+    padding: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.097);
+    border-radius: 3rem;
+}
+
